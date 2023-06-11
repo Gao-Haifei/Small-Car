@@ -8,7 +8,7 @@
 /* 设置oled屏幕的相关信息 */
 const int I2C_ADDR = 0x3c;              // oled屏幕的I2c地址
 #define SDA_PIN 0                       // SDA引脚，默认gpio4(D2)
-#define SCL_PIN 4                       // SCL引脚，默认gpio5(D1)
+#define SCL_PIN 4                       // SCL引脚，默认gpio5(D1)2
 
 /* 新建一个oled屏幕对象，需要输入IIC地址，SDA和SCL引脚号 */
 SSD1306Wire oled(I2C_ADDR, SDA_PIN, SCL_PIN);
